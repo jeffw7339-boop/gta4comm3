@@ -1,0 +1,27 @@
+<audConfig>
+	<OrientationForward>
+		<x value="0.0"/>
+		<y value="1.0"/>
+		<z value="0.0"/>
+	</OrientationForward>
+	<OrientationUp>
+		<x value="0.0"/>
+		<y value="0.0"/>
+		<z value="1.0"/>
+	</OrientationUp>
+
+	<ScalingFactor value="1"/>
+	<SpeedOfSound value="340"/>
+	<MaxRelativeVelocityForDoppler value="35"/>
+
+	<SoundMetadata value="audio:/config/sounds.dat"/>
+	<CurveMetadata value="audio:/config/curves.dat"/>
+	<CategoryMetadata value="audio:/config/categories.dat"/>
+	<EffectMetadata value="audio:/config/effects.dat"/>
+	<GameMetadata value="audio:/config/game.dat"/>
+	<SpeechLookupMetadata value="audio:/config/speech.dat"/>
+			
+	<NumSlotsPerBucket value="255"/>
+	<NumBuckets value="16"/>
+	<NumRequestedSettingsPerBucket value="96"/>
+</audConfig>
